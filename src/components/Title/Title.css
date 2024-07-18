@@ -1,0 +1,17 @@
+.title-container {
+  position: relative;
+}
+.title-container h1 {
+  font-size: 80px;
+  font-weight: 600;
+  padding: 0px 30px;
+}
+.title-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110%;
+  height: 130%;
+  object-fit: fill;
+  z-index: -1;
+}

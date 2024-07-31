@@ -11,9 +11,9 @@ const Contact = () => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
-    console.log(process.env);
-    console.log(process.env.VITE_REACT_MAIL_API_KEY);
-    formData.append("access_key", process.env.VITE_REACT_MAIL_API_KEY);
+    //console.log(process.env);
+    //console.log(process.env.VITE_REACT_MAIL_API_KEY);
+    formData.append("access_key", "4d9f5597-02e8-4f33-aa64-01a7b73e5620");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

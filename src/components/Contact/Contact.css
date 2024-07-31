@@ -95,3 +95,47 @@
   transform: scale(1.1);
   transition: 0.3s;
 }
+@media(max-width: 768px){
+  .contact{
+    margin: 50px 70px;
+    gap:50px ;
+    align-items: start;
+  }
+  .contact__content{
+    flex-direction: column;
+    
+  }
+  .contact__content__left h2{
+    font-size: 45px;
+  }
+  .contact__content__left p{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .contact_details__item{
+    gap:20px;
+  }
+  .contact_details__item img{
+    width: 25px;
+  }
+  .contact__content__right label{
+    font-size: 20px;
+  }
+  .contact__content__right{
+   
+   width: 100%;
+   margin-top: -100px;
+  }
+  .contact__content__right input{
+    width: 130%;
+    font-size: 20px;
+  }
+  .contact__content__right textarea{
+    width:130%;
+    font-size: 20px;
+  }
+  .contact__submit{
+    padding:15px 40px ;
+    font-size: 18px;
+  }
+}

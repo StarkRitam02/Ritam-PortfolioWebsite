@@ -10,6 +10,17 @@
     display: flex;
     justify-content: space-between;
 }
+.footer-top-left h1{
+  font-size: 40px;
+  font-weight: 800;
+}
+.footer-top-left h1 span{
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .footer-top-left p{
   font-size: 20px;
   max-width: 400px;
@@ -67,4 +78,41 @@
 .footer-subscribe:hover{
   transform: scale(1.1);
   transition: 0.3s;
+}
+@media(max-width: 768px){
+  .footer{
+    
+    padding: 20px;
+  }
+  .footer-top{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer-bottom{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 20px 0px;
+  }
+  .footer-bottom-right{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .footer-email{
+    padding: 20px 10px;
+    width: 70%;
+    height: 20px;
+  }
+  .footer-email input{
+    font-size: 16px;
+   
+  }
+  .footer-subscribe{
+    font-size: 18px;
+    padding: 20px 40px;
+    width: 10%;
+    height: 20px;
+  }
+  
+  
 }

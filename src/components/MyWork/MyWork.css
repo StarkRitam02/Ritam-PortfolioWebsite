@@ -49,3 +49,25 @@
     gap: 30px;
     transition: 0.6s;
 }
+@media(max-width: 768px){
+    .mywork{
+        margin: 60px 70px;
+        gap:50px ;
+        align-items: start;
+    }
+    .mywork__content{
+        grid-template-columns: 1fr 1fr;
+        gap: 45px;
+        margin-top: 100px;
+    }
+    .mywork__content img{
+        width: 100%;
+        height: 100%;
+    }
+    .mywork__btn{
+        padding: 20px 40px;
+        font-size: 18px;
+        margin:50px auto;
+        cursor: pointer;
+    }
+}

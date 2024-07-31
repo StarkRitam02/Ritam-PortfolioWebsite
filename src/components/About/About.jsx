@@ -13,19 +13,14 @@ const About = () => {
         </div>
         <div className="about-content-right">
           <div className="about-right-text">
-            <h2>Hi, I&apos;m John Doe</h2>
+            <h2>Hi, I&apos;m Ritam Chatterjee</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            I am an IT undergraduate passionate about technology and web development. My expertise spans programming languages like Java, JavaScript, and Python, along with frameworks such as ReactJS and NodeJS. I've also gained hands-on experience during my internship at IBM SkillsBuild, where I developed machine learning models and worked on cloud integration projects.
             </p>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
-            </p>
+            Currently, I&apos;m pursuing my BTech in Information Technology from Netaji Subhash Engineering College. My academic and project experiences, including building web applications like the Train X railway reservation system, have equipped me with the skills and knowledge to tackle real-world challenges. I&apos;m always excited to learn, innovate, and contribute to the tech community.</p>
+            <p>When I&apos;m not coding, I enjoy engaging with the tech community, sharing knowledge, and exploring new technologies. Let&apos;s connect and create something amazing together!</p>
+            
           </div>
           <div className="about-right-skills">
             <div className="about-skill">
